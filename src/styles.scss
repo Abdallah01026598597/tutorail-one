@@ -1,1 +1,28 @@
 /* You can add global styles to this file, and also import other style files */
+@import "./mixin";
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+input {
+  outline: none;
+}
+
+.main-page {
+  background-color: $main-color;
+  min-height: 100vh;
+  padding-top: 20px;
+  .logo  img {
+    max-width: 100%;
+  }
+}
+
+
